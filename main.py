@@ -8,8 +8,8 @@ import matplotlib.pyplot as plt
 # --------------------------------------------
 # PARTE 1: Buscar y leer los archivos
 # --------------------------------------------
-archivos_csv = glob.glob("sucursal_*.csv")
-archivos_xlsx = glob.glob("sucursal_*.xlsx")
+archivos_csv = glob.glob("datos/sucursal_*.csv")
+archivos_xlsx = glob.glob("datos/sucursal_*.xlsx")
 lista_informes = []
 
 for archivo in archivos_csv:
@@ -74,7 +74,7 @@ df_consolidado['metodo_pago'] = df_consolidado['metodo_pago'].fillna('No especif
 # --------------------------------------------
 # PARTE 5: Guardar el resultado
 # --------------------------------------------
-df_consolidado.to_excel("consolidado_limpio.xlsx", index=False)
+df_consolidado.to_excel("resultados/consolidado_limpio.xlsx", index=False)
 print("Archivo guardado")
 
 # --------------------------------------------
@@ -89,7 +89,7 @@ plt.ylabel('Ventas totales ($)')
 plt.xlabel('Categoría')
 plt.xticks(rotation=0)
 plt.tight_layout()
-plt.savefig("grafico_ventas_categoria.png")
+plt.savefig("resultados/grafico_categoria.png")
 plt.show()
 
 # 6b. EJEMPLO RESUELTO: participacion por vendedor (grafico de torta)
@@ -97,7 +97,7 @@ ventas_por_vendedor = df_consolidado.groupby('vendedor')['precio_unitario'].sum(
 ventas_por_vendedor.plot(kind='pie', autopct='%1.1f%%', title='Participacion de Ventas por Vendedor')
 plt.ylabel('')
 plt.tight_layout()
-plt.savefig("grafico_ventas_vendedor.png")
+plt.savefig("resultados/grafico_vendedor.png")
 plt.show()
 
 # 6c. Producto que mas veces aparece en las ventas
