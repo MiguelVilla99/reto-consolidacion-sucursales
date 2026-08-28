@@ -1,0 +1,64 @@
+fecha,producto,categoria,cantidad,precio_unitario,vendedor,metodo_pago
+2026-06-28,Chaqueta impermeable,Ropa,7,92100.0,Camila Ruiz,Efectivo
+2026-06-26,Audifonos Bluetooth,Electronica,6,147100.0,Camila Ruiz,Tarjeta
+2026-06-13,Jean clasico,Ropa,8,38100.0,Andres Gomez,Transferencia
+2026-06-16,Gorra deportiva,Ropa,2,88100.0,Sofia Mena,Efectivo
+2026-07-12,Audifonos Bluetooth,Electronica,1,174900.0,Andres Gomez,Tarjeta
+2026-07-02,Teclado mecanico,Electronica,8,50300.0,Felipe Torres,Efectivo
+2026-06-25,Mouse inalambrico,Electronica,1,177600.0,Laura Diaz,No especificado
+2026-06-28,Cargador USB-C,Electronica,8,40500.0,Laura Diaz,Tarjeta
+2026-07-08,Audifonos Bluetooth,Electronica,1,138400.0,Camila Ruiz,Efectivo
+2026-07-01,Medias deportivas,Ropa,3,24400.0,Sofia Mena,Efectivo
+2026-06-05,Mouse inalambrico,Electronica,2,126400.0,Andres Gomez,No especificado
+2026-07-07,Camiseta basica,Ropa,4,110500.0,Camila Ruiz,Efectivo
+2026-07-13,Teclado mecanico,Electronica,6,169200.0,Andres Gomez,Transferencia
+2026-06-17,Jean clasico,Ropa,7,36600.0,Laura Diaz,No especificado
+2026-06-02,Camiseta basica,Ropa,5,55400.0,Andres Gomez,Efectivo
+2026-06-06,Parlante portatil,Electronica,7,20200.0,Camila Ruiz,Tarjeta
+2026-07-03,Jean clasico,Ropa,1,107600.0,Sofia Mena,No especificado
+2026-06-29,Jean clasico,Ropa,5,148600.0,Camila Ruiz,Tarjeta
+2026-06-22,Teclado mecanico,Electronica,5,40700.0,Laura Diaz,Efectivo
+2026-06-25,Camiseta basica,Ropa,2,74200.0,Laura Diaz,Transferencia
+2026-06-30,Audifonos Bluetooth,Electronica,2,175600.0,Felipe Torres,Efectivo
+2026-06-19,Parlante portatil,Electronica,6,110300.0,Camila Ruiz,Efectivo
+2026-06-19,Jean clasico,Ropa,2,156100.0,Camila Ruiz,No especificado
+2026-06-30,Cargador USB-C,Electronica,6,41800.0,Laura Diaz,Tarjeta
+2026-07-15,Cargador USB-C,Electronica,2,115500.0,Andres Gomez,Tarjeta
+2026-06-30,Mouse inalambrico,Electronica,7,59500.0,Sofia Mena,Tarjeta
+2026-06-04,Chaqueta impermeable,Ropa,4,150600.0,Laura Diaz,No especificado
+2026-06-05,Cargador USB-C,Electronica,4,165700.0,Sofia Mena,Transferencia
+2026-07-12,Jean clasico,Ropa,8,80300.0,Felipe Torres,Tarjeta
+2026-06-09,Cargador USB-C,Electronica,4,137900.0,Sofia Mena,Transferencia
+2026-06-28,Medias deportivas,Ropa,7,74700.0,Andres Gomez,No especificado
+2026-06-04,Camiseta basica,Ropa,2,40200.0,Andres Gomez,No especificado
+05/06/2026,Chaqueta impermeable,Ropa,1,90600.0,Sofia Mena,Efectivo
+05/07/2026,Camiseta basica,Ropa,4,98500.0,Andres Gomez,Transferencia
+16/06/2026,Camiseta basica,Ropa,6,,Felipe Torres,Transferencia
+12/07/2026,Medias deportivas,Ropa,1,125200.0,Sofia Mena,Transferencia
+09/06/2026,Camiseta basica,Ropa,5,34000.0,,Tarjeta
+19/06/2026,Cargador USB-C,Electronica,4,133400.0,Andres Gomez,Transferencia
+02/07/2026,Parlante portatil,Electronica,5,164400.0,Camila Ruiz,Efectivo
+18/06/2026,Teclado mecanico,Electronica,1,,Andres Gomez,Transferencia
+29/06/2026,Mouse inalambrico,Electronica,7,107500.0,Camila Ruiz,Efectivo
+05/07/2026,Mouse inalambrico,Electronica,1,152700.0,,Tarjeta
+09/06/2026,Teclado mecanico,Electronica,1,65900.0,Camila Ruiz,Transferencia
+14/07/2026,Jean clasico,Ropa,4,,Laura Diaz,No especificado
+10/06/2026,Medias deportivas,Ropa,4,157700.0,Andres Gomez,No especificado
+12/06/2026,Audifonos Bluetooth,Electronica,6,144100.0,Felipe Torres,Tarjeta
+11/06/2026,Cargador USB-C,Electronica,2,78100.0,Camila Ruiz,No especificado
+13/06/2026,Jean clasico,Ropa,8,72700.0,Andres Gomez,Tarjeta
+2026-06-05,Medias deportivas,Ropa,7,78000.0,Felipe Torres,Transferencia
+2026-06-01,Parlante portatil,Electronica,2,127500.0,Sofia Mena,Transferencia
+2026-06-08,Chaqueta impermeable,Ropa,5,86700.0,Felipe Torres,Efectivo
+2026-07-03,Cargador USB-C,Electronica,3,98800.0,Camila Ruiz,Transferencia
+2026-07-09,Parlante portatil,Electronica,4,40200.0,Andres Gomez,Efectivo
+2026-06-21,Medias deportivas,Ropa,8,18200.0,Laura Diaz,Transferencia
+2026-06-04,Jean clasico,Ropa,4,159900.0,Camila Ruiz,Efectivo
+2026-06-05,Gorra deportiva,Ropa,3,36200.0,Felipe Torres,Tarjeta
+2026-07-04,Cargador USB-C,Electronica,7,174100.0,Sofia Mena,Tarjeta
+2026-06-26,Cargador USB-C,Electronica,6,87300.0,Sofia Mena,No especificado
+2026-06-16,Camiseta basica,Ropa,4,25600.0,Camila Ruiz,Tarjeta
+2026-06-15,Medias deportivas,Ropa,1,26700.0,Camila Ruiz,Tarjeta
+2026-06-03,Camiseta basica,Ropa,6,26700.0,Andres Gomez,Transferencia
+2026-06-14,Gorra deportiva,Ropa,3,134400.0,Sofia Mena,No especificado
+2026-07-01,Jean clasico,Ropa,7,46400.0,Camila Ruiz,No especificado
