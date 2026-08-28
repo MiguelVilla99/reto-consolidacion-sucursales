@@ -108,3 +108,7 @@ print("\nProductos por numero de veces vendido:")
 print(producto_mas_vendido)
 print(f"\nEl producto mas vendido (en cantidad de ventas) es: {producto_mas_vendido.index[0]} "
       f"con {producto_mas_vendido.iloc[0]} ventas")
+
+# Conclusion: "Jean clasico" y "Cargador USB-C" son los productos que mas
+# aparecen en las ventas (10 veces cada uno). Esto ayuda a identificar
+# que productos mantener siempre bien abastecidos en las sucursales.
