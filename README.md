@@ -61,3 +61,34 @@ python main.py
 Los resultados (Excel consolidado y gráficos) se guardan automáticamente
 en la carpeta `resultados/`.
 
+
+
+## Sistema de automatización
+
+El archivo `automatizacion.py` vigila la carpeta `datos/` de forma
+continua para detectar cuando se agrega un archivo de sucursal nuevo,
+sin necesidad de correr el script manualmente cada vez.
+
+**¿Cómo detecta los archivos nuevos?**
+Al iniciar, el script guarda la lista de archivos que ya existen en
+`datos/`. Luego, cada 5 segundos vuelve a revisar esa carpeta y compara
+la lista actual contra la guardada. Cualquier archivo que aparezca en
+la lista nueva pero no en la anterior se considera "nuevo".
+
+**¿Qué pasa cuando encuentra uno?**
+En cuanto detecta un archivo nuevo, ejecuta automáticamente todo el
+proceso: lee de nuevo los archivos de `datos/`, corrige las columnas
+del archivo de Bogotá si aplica, consolida todo en un solo DataFrame,
+limpia duplicados y espacios en blanco, regenera los gráficos de
+ventas por categoría y por vendedor, y guarda una nueva línea en
+`resultados/log_automatizacion.txt` con la fecha, el nombre del
+archivo detectado y el total de registros procesados. Así queda un
+historial de cada vez que el sistema actualizó los resultados.
+
+**Cómo probarlo:**
+```bash
+python automatizacion.py
+```
+Con el script corriendo, arrastra un archivo de sucursal nuevo dentro
+de `datos/` y en unos segundos el sistema lo detecta y actualiza todo
+solo. Se detiene con `Ctrl+C`.
