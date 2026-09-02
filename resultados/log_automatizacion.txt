@@ -1,0 +1,12 @@
+Proceso ejecutado: 2026-09-01 21:47:19.746163
+Archivo detectado: {'automatizacion.py'}
+Total de registros procesados: 63
+---
+Proceso ejecutado: 2026-09-01 21:55:55.629396
+Archivo detectado: {'sucursal_medellin_reporte2 (1).xlsx'}
+Total de registros procesados: 67
+---
+Proceso ejecutado: 2026-09-01 21:56:09.789587
+Archivo detectado: {'sucursal_cali_reporte2 (1).xlsx'}
+Total de registros procesados: 71
+---
